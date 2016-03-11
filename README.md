@@ -11,7 +11,7 @@ Things you may want to cover:
 * System dependencies
       私！
 * Configuration
-
+      ウエーーーい！
 * Database creation
 
 * Database initialization
