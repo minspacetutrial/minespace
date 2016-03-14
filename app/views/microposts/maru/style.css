@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  text-align: center;
 }
 #header{
   width: 100%;
@@ -51,6 +52,44 @@ td,th{
 table{
   border-collapse: collapse;
   border:solid;
+}
+td:first-letter{
+  color: rgb(242, 69, 113)
+}
+form:before{
+  content:"これはcssからのコメントです"
+}
+.help{
+  cursor: help;
+}
+.drag{
+  cursor:move;
+}
+.click{
+  cursor:pointer;
+}
+#table{
+  display: table;
+  margin:0 auto;
+}
+.box{
+  display: table-cell;
+  width:250px;
+}
+#cell{
+  display: table-row;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.yellow{
+  background-color: yellow;
 }
 @media screen and (max-width:1000px) {
   html{
